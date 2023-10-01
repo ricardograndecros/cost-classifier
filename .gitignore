@@ -1,0 +1,69 @@
+go_nordigen
+firefly-iii
+docs
+mocks
+.env
+.config.json
+transactions.db
+server.crt
+server.key
+
+# Go related
+bin/
+pkg/
+*.a
+*.test
+*.out
+
+# Go dependency directories (remove these lines if you are not using Go Modules)
+go.sum
+go.mod
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove these lines if you are using Go Modules)
+vendor/
+
+# IDEs and editors
+/.idea
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.state
+
+# NPM related
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Preact & build output
+build/
+
+# OS and User specific
+.DS_Store
+*.sublime*
+.vscode/
+
+# Other common ignore items
+*.log
+*.pid
+*.pyc
+
+
+.idea
+.cache
